@@ -10,7 +10,7 @@ First install dependencies:
 
 'npm install'
 
-* Directory: '/mean/angular-src'
+* Directory: 'angular-src'
 
 'npm install'
 
