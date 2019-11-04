@@ -6,11 +6,11 @@ Using 'cmd' in Windows:
 
 First install dependencies:
 
-* Folder: '/boother v1.0'
+* Directory: 'working directory'
 
 'npm install'
 
-* Folder: '/mean/angular-src'
+* Directory: '/mean/angular-src'
 
 'npm install'
 
