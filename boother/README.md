@@ -22,5 +22,5 @@ _cmd:_ 'npm start' / 'node server' / 'nodemon'
 
 _cmd:_ 'ng serve'
 
-Then go to:
+* Go to:
 localhost:4200
