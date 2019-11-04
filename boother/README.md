@@ -1,14 +1,14 @@
 **Latest MEAN-Stack appBase from scratch**
 
-(Make sure to have MongoDb running!)
+* Start MongoDb
 
 * Install dependencies:
 
-Directory: 'working directory'
+[Directory: _'working directory'_]
 
 'npm install'
 
-Directory: '/angular-src'
+[Directory: _'/angular-src'_]
 
 'npm install'
 
@@ -18,7 +18,7 @@ Directory: '/angular-src'
 
 * Start Angular service:
 
-Directory: '/angular-src'
+[Directory: _'/angular-src'_]
 
 'ng serve'
 
