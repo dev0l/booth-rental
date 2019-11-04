@@ -1,6 +1,6 @@
 **Latest MEAN-Stack appBase from scratch**
 
-Make sure to have MongoDb running!
+(Make sure to have MongoDb running!)
 
 Using 'cmd' in Windows:
 
