@@ -2,33 +2,23 @@
 
 (Make sure to have MongoDb running!)
 
-Using 'cmd' in Windows:
+* Install dependencies:
 
-First install dependencies:
-
-* Directory: 'working directory'
+Directory: 'working directory'
 
 'npm install'
 
-* Directory: 'angular-src'
+Directory: '/angular-src'
 
 'npm install'
 
-Then start server:
+* Start server:
 
-'npm start'
+'npm start' / 'node server' / 'nodemon'
 
-*OR*
+* Start Angular service:
 
-'node server'
-
-*OR*
-
-'nodemon'
-
-Then start Angular service:
-
-* Folder: '/mean/angular-src'
+Directory: '/angular-src'
 
 'ng serve'
 
