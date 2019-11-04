@@ -1,0 +1,32 @@
+{
+  "name": "boother",
+  "version": "1.0.0",
+  "description": "Rent a Booth",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "typescript": "^2.2.1"
+  },
+  "keywords": [
+    "Rent",
+    "Booth",
+    "Rentals",
+    "Sales",
+    "Boother"
+  ],
+  "author": "dev0l",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}

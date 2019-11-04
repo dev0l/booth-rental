@@ -1,0 +1,14 @@
+.dash-box {
+  cursor: pointer;
+  cursor: hand;
+}
+
+td {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.dash-box:hover {
+  /*background-color: linear-gradient(#404448, #4e5458 40%, #53595d);*/
+  background-color: #020202;
+}

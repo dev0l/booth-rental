@@ -1,0 +1,122 @@
+/* Global */
+
+a:link {color: #4d4d4d; text-decoration: none; }
+a:visited {color: #7d7d7d; text-decoration: none; }
+a:hover {color: black; text-decoration: none; }
+a:active {text-decoration: none; }
+
+p {
+  margin: 0 0 2px;
+}
+
+i {
+  margin-right: 15px;
+}
+
+/* Start */
+
+#header {
+  margin: 0 auto 25px auto;
+}
+
+#info h4 {
+  text-align: center;
+}
+
+#info h3 {
+  text-align: center;
+}
+
+#info form {
+  height: 35px;
+  width: 114px;
+  margin: 20px auto 5px;
+}
+
+#pricetag {
+  max-width: 300px;
+}
+
+#pricetag a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#pricetag form {
+  margin-bottom: 10px; 
+}
+
+.tag {
+  font-weight: bold;
+}
+
+#contact {
+  max-width: 200px;
+}
+
+#contact div {
+  margin: 25px 0 25px 0;
+}
+
+#contact h2 {
+  margin: 0 0 35px;
+}
+
+#fb button i + span {
+  line-height: 25px;
+}
+
+#fb button i {
+  vertical-align: middle;
+}
+
+#location {
+  max-width: 250px;
+}
+
+#location a {
+  position: absolute;
+  display: inline-block;
+}
+
+/* Uthyrning */
+
+#inf {
+  margin-bottom: 15px;
+}
+
+#inf p {
+  margin-bottom: 15px;
+}
+
+.btns {
+  margin-bottom: 15px;
+}
+
+.btns button {
+  margin-bottom: 10px;
+}
+
+.btns button i + span {
+  line-height: 25px;
+}
+
+.btns button i {
+  vertical-align: middle;
+}
+
+#tele a:link, #mail a:link {color: white; text-decoration: none; }
+#tele a:visited, #mail a:visited {color: white; text-decoration: none; }
+#mail a:hover {color: white; text-decoration: none; }
+#tele a:hover {color: slategrey; text-decoration: none; }
+#tele a:active, #mail a:active {text-decoration: none; }
+
+#location h4 {
+  margin-top: 0;
+}
+
+#center {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}

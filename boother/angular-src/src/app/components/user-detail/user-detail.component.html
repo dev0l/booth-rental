@@ -1,0 +1,74 @@
+<div *ngIf="user" class="container-fluid">
+
+  <div class="row">
+    <div class="col-xs-12">
+      <!--<img class="img-circle" src="{{profile.picture}}" alt="Profile picture">-->
+      <h2 class="page-header">{{user.firstName}} {{user.lastName}}</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Username: {{user.username}}</li>
+        <li class="list-group-item">Email: {{user.email}}</li>
+        <li class="list-group-item">Phone: {{user.phone}}</li>
+        <li class="list-group-item">Registrerad: {{user.created}}</li>
+        <li class="list-group-item">Kommentarer: {{user.comments}}</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <!--*ngIf="boothcard"-->
+      <h4 class="page-header">Bås 5 - {{user.firstName}} {{user.lastName}}</h4>
+      <ul class="list-group">
+        <li class="list-group-item">Dagar: 5</li>
+        <li class="list-group-item">
+          <span>Hyra: 199kr</span>
+          <div class="pull-right">
+            <span><label for="">Betalt:</label> Nej - </span>
+            <input type="button" value="Betala">
+          </div>
+        </li>
+        <!--<li class="list-group-item">Betalt: false</li>-->
+        <li class="list-group-item">Försäljning: 250kr</li>
+        <li class="list-group-item">Totalsumma: +51kr</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Edit/Delete User -->
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="page-header">Redigera Kund</h2>
+      <form (submit)="profileUpdate()">
+        <div class="form-group">
+          <label>Användarnamn</label>
+          <input type="text" [(ngModel)]="user.username" name="username" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>E-post</label>
+          <input type="text" [(ngModel)]="user.email" name="email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Telefon</label>
+          <input type="text" [(ngModel)]="user.phone" name="phone" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Kommentarer</label>
+          <input type="text" [(ngModel)]="user.comments" name="comments" class="form-control">
+        </div>
+
+        <!-- Optional Update -->
+        <!--<div class="form-group">
+          <label>Lösenord</label>
+          <input type="password" [(ngModel)]="user.password" name="password" placeholder="password" class="form-control">
+        </div>-->
+
+        <div class="row">
+          <div class="col-xs-4">
+            <input type="submit" class="btn btn-default" value="Spara">
+            <input type="button" class="btn btn-default" (click)="userDelete(id)" value="Radera">
+            <input type="button" class="btn btn-primary" [routerLink]="['/dashboard']" value="Tillbaka">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
