@@ -6,21 +6,21 @@
 
 [Directory: _'working directory'_]
 
-cmd: 'npm install'
+_cmd:_ 'npm install'
 
 [Directory: _'/angular-src'_]
 
-cmd: 'npm install'
+_cmd:_ 'npm install'
 
 * Start server:
 
-cmd: 'npm start' / 'node server' / 'nodemon'
+_cmd:_ 'npm start' / 'node server' / 'nodemon'
 
 * Start Angular service:
 
 [Directory: _'/angular-src'_]
 
-cmd: 'ng serve'
+_cmd:_ 'ng serve'
 
 Then go to:
 localhost:4200
