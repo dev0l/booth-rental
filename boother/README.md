@@ -1,4 +1,4 @@
-**Latest MEAN-Stack appBase from scratch**
+# Latest MEAN-Stack appBase from scratch
 
 * Start MongoDb
 
