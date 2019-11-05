@@ -1,4 +1,4 @@
-# booth-renting
+# Boother - Rent a Booth
 A Website project for Booth-renting
 
 * I started of with a simple start-/order-/contact page: **Lisses**
