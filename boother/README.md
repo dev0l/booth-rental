@@ -1,4 +1,4 @@
-# MEAN-Stack appBase from scratch (BROKEN)
+# MEAN-Stack appBase from scratch (BROKEN!)
 
 * Start MongoDb
 
