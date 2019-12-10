@@ -1,5 +1,5 @@
 # Boother - Rent a Booth
-A Website project for Booth-renting
+A Website project for renting Booths
 
 * I started of with a simple start-/order-/contact page: **Lisses**
 
