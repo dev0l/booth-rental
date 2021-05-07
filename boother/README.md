@@ -2,6 +2,8 @@
 
 * Start MongoDb
 
+_cmd:_ 'mongod'
+
 * Install dependencies:
 
 [Directory: _'working directory'_]
